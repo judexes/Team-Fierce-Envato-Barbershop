@@ -1,2 +1,10 @@
 /* Enter custom styling  h ere */
 
+.contact-us-form input {
+    height: 60px;
+}
+
+.contact-us-form button:hover, .contact-us-form button:active, .contact-us-form button:active {
+    background-color:#ac8a67;
+    border: 1px solid transparent;
+}
