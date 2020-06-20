@@ -1,5 +1,7 @@
 /* Enter custom styling  h ere */
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 .contact-us-form input {
     height: 60px;
 }
@@ -8,3 +10,10 @@
     background-color:#ac8a67;
     border: 1px solid transparent;
 }
+
+.contact-us-form {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    letter-spacing: 0.02em;
+ }
