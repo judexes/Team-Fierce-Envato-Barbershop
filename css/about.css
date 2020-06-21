@@ -1,3 +1,144 @@
+/*Header and Footer Styling*/
+
+.navbar .nav-item {
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.02em;
+    margin: 0px 6px;
+    font-weight: 500;
+}
+
+.navbar-main {
+    height: 90px;
+    text-transform: uppercase;
+}
+
+.navbar-top {
+    height: 50px;
+    background: #302F2F;
+    padding: 0em 6em;
+    font-weight: bold;
+    line-height: 27px;
+    letter-spacing: 0.02em;
+}
+
+.lowercase {
+    text-transform: lowercase;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.navbar-top .nav-item, navbar-top button {
+    font-size: .8rem;
+}
+
+.book-appoint-top {
+    background-color: #5C4624;
+    height: 50px;
+    border-radius: 0px;
+    border: 0px solid #302f2f;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.navbar-top img, .footer-copy img {
+    max-height: 16px;
+    margin-right:5px;
+}
+
+.footer-copy img {
+    max-height: 16px;
+    margin-right:15px;
+}
+
+a, a:hover, a:focus, a:active {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+@media (min-width: 768px){
+.m-md-3 {
+    margin: 0rem!important;
+}
+
+.jumbotron {
+    background-color: white;
+    border-radius: 0px;
+    margin-bottom: 0rem;
+}
+
+footer {
+    color: #fff;
+    background-image: url("../assets/images/footer-bg.png");
+    background-repeat: repeat-y;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    min-height: 350px;
+}
+
+.navbar-main {
+    color: #fff;
+    background-image: url("../assets/images/footer-bg.png");
+    background-repeat: repeat-y;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.text-muted {
+    color: #c9c9c9!important;
+}
+
+.subscribe button {
+    background-color:#664c32;
+    color: #fff;
+    border: 1px solid transparent;
+}
+
+.subscribe h6 {
+    margin-bottom:35px;
+}
+
+.subscribe input {
+    height: 60px;
+}
+
+.subscribe button:hover, .subscribe button:active, .subscribe button:active {
+    background-color:#ac8a67;
+    border: 1px solid transparent;
+}
+
+.footer-main {
+    padding: 4rem 4rem 0rem 4rem;
+}
+
+.footer-copy {
+    background: #302F2F;
+    padding: 1rem;
+}
+
+.quick-links li {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 15px;
+    letter-spacing: 0.04em;
+}
+
+ul li {
+    list-style-type: none;
+}
+}
+
+
+
+/* About Us Styling */
+
 section.about-us{
     background: url("/images/barbershop 1st.jpg");
     background-repeat: no-repeat;
