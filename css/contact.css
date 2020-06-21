@@ -69,6 +69,24 @@
 
 @include media-breakpoint-up(sm) {
  .display-6 {
-    font-size: 1;
+    font-size: 80px;
  }
+}
+
+.form-control, .form-control:focus {
+    background: #F0EDE9;
+    box-shadow: none;
+}
+
+.contact-section {
+    background: #F0EDE9;
+}
+
+.form-control, .form-control:focus {
+    background: #F0EDE9;
+    border-color: #fff;
+}
+
+.map-section .container-fluid {
+
 }
