@@ -169,3 +169,6 @@ ul li {
     }
 }
 
+.quicklinks li {
+    margin-bottom: .25rem!important;
+}
