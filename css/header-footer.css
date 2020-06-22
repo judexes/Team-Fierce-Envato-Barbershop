@@ -45,6 +45,7 @@
     border: 0px solid #302f2f !important;
     font-weight: bold;
     text-transform: uppercase;
+    margin-bottom: 0px!important; /**@bukky added this**/
 }
 
 .navbar-top img, .footer-copy img {
@@ -104,7 +105,7 @@ footer {
 }
 
 .subscribe input {
-    height: 60px;
+    height: 41px; /*Previously 60-@bukky added this*/
 }
 
 .subscribe button:hover, .subscribe button:active, .subscribe button:active {
