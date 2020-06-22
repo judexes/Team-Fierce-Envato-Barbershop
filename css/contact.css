@@ -40,7 +40,7 @@
     border-color: transparent;
  }
 
- .btn-primary:hover, .btn-primary:active, .btn-primary:focus, {
+ .btn-primary:hover, .btn-primary:active, .btn-primary:focus {
     background: #5C4624;
     border-radius: 0px;
     background-color: #ac8a67;
