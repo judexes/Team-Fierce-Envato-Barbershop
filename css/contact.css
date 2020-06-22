@@ -32,7 +32,7 @@
     color: #0B1116;
  }
 
- .btn-primary {
+ .btn-primary, .btn {
     background: #5C4624;
     border-radius: 0px;
     background-color: #664c32;
@@ -40,14 +40,20 @@
     border-color: transparent;
  }
 
- .btn-primary:hover, .btn-primary:active, .btn-primary:focus {
-    background: #5C4624;
-    border-radius: 0px;
-    background-color: #ac8a67;
-    border-color: transparent;
+ .btn:active, .btn:focus {
+    box-shadow: none;
  }
 
- .jumbotron {
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus, .btn-primary:not(:disabled):not(.disabled).active,
+  .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    background-color: #ac8a67;
+    border-color: transparent;
+    box-shadow: none;
+    border:0px;
+    border-radius: 0px;
+ }
+
+ .splash {
     background-image: url("../assets/images/contact.png");
     background-repeat: repeat-y;
     background-position: center;
@@ -66,12 +72,6 @@
     text-transform: uppercase;
     color: #FFFFFF;
  }
-
-@include media-breakpoint-up(sm) {
- .display-6 {
-    font-size: 80px;
- }
-}
 
 .form-control, .form-control:focus {
     background: #F0EDE9;
