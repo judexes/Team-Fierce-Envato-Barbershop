@@ -2,6 +2,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
 .contact-us-form input {
     height: 60px;
     border-radius: 0px;
@@ -24,7 +28,7 @@
     height: 500px;
  }
 
- .contact-form-header {
+ .home-splash {
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
     line-height: 40px;
@@ -53,14 +57,14 @@
     border-radius: 0px;
  }
 
- .contact-splash {
-    background-image: url("../assets/images/contact.png");
+ .home-splash {
+    background-image: url("../assets/images/home.png");
     background-repeat: repeat-y;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    min-height: 350px;
+    min-height: 750px;
  }
 
  .display-6 {
@@ -73,20 +77,6 @@
     color: #FFFFFF;
  }
 
-.form-control, .form-control:focus {
-    background: #F0EDE9;
-    box-shadow: none;
-}
-
-.contact-section {
-    background: #F0EDE9;
-}
-
-.form-control, .form-control:focus {
-    background: #F0EDE9;
-    border-color: #fff;
-}
-
-.map-section .container-fluid {
+.display-4 {
 
 }
