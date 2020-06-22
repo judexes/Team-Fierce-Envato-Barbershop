@@ -1,0 +1,46 @@
+@import 'font.css'; 
+
+.jumbotron {
+    background: url("../assets/images/appointment-A.png") no-repeat top center;
+    background-size: cover;
+ }
+.h1-jumbotron {
+     color: white;
+     font-family: Montserrat-bold-font;
+}
+#display-icon-set,
+#appointment-form {
+    background: white;
+}
+#appointment-section {
+    width: 100%;
+    background-image: url("../assets/images/appointment-B.png");
+    background-repeat: repeat-y;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#appointment-form-header {
+    color: white;
+    font: Montserrat-bold-font;
+}
+#appointment-form {
+    padding:  30px 10px;
+    
+}
+#appointment-form .form-group label,
+#appointment-form .form-group input,
+#appointment-form .form-group select {
+    font-family: Montserrat-light-font;
+    font-size: 0.9rem;
+}
+#appointment-form .form-group input,
+#appointment-form .form-group select,
+#appointment-submit-btn  {
+    border-radius: 0 !important;
+    border: 1px solid #CCC3C3;
+}
+
+#appointment-submit-btn {
+    background: #5C4624 !important;
+}
