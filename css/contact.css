@@ -4,6 +4,7 @@
 
 .contact-us-form input {
     height: 60px;
+    border-radius: 0px;
 }
 
 .contact-us-form button:hover, .contact-us-form button:active, .contact-us-form button:active {
@@ -22,3 +23,70 @@
     width:100%;
     height: 500px;
  }
+
+ .contact-form-header {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    color: #0B1116;
+ }
+
+ .btn-primary {
+    background: #5C4624;
+    border-radius: 0px;
+    background-color: #664c32;
+    color: #fff;
+    border-color: transparent;
+ }
+
+ .btn-primary:hover, .btn-primary:active, .btn-primary:focus {
+    background: #5C4624;
+    border-radius: 0px;
+    background-color: #ac8a67;
+    border-color: transparent;
+ }
+
+ .jumbotron {
+    background-image: url("../assets/images/contact.png");
+    background-repeat: repeat-y;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    min-height: 350px;
+ }
+
+ .display-6 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 120px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+ }
+
+@include media-breakpoint-up(sm) {
+ .display-6 {
+    font-size: 80px;
+ }
+}
+
+.form-control, .form-control:focus {
+    background: #F0EDE9;
+    box-shadow: none;
+}
+
+.contact-section {
+    background: #F0EDE9;
+}
+
+.form-control, .form-control:focus {
+    background: #F0EDE9;
+    border-color: #fff;
+}
+
+.map-section .container-fluid {
+
+}

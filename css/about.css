@@ -1,4 +1,4 @@
-
+/* Header and Footer CSS */
 
 .navbar .nav-item {
     font-size: 18px;
@@ -45,7 +45,6 @@
     border: 0px solid #302f2f;
     font-weight: bold;
     text-transform: uppercase;
-    margin-bottom: 0px!important; /**@bukky added this**/
 }
 
 .navbar-top img, .footer-copy img {
@@ -96,7 +95,7 @@ footer {
 }
 
 .subscribe input {
-    height: 41px; /*Previously 60-@bukky added this*/
+    height: 60px;
 }
 
 .subscribe button:hover, .subscribe button:active, .subscribe button:active {
@@ -161,3 +160,30 @@ ul li {
     }
 }
 
+
+
+
+
+
+/* About us page styling */
+section.about-us{
+    background: url("/images/barbershop 1st.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    filter: grayscale(100%);
+}
+
+.container{
+    max-width: 1300px;
+}
+
+
+/* Media Queries for the about us page */
+
+@media screen and (max-width:767.98px){
+    .about-us{
+        font-size: 2em !important;
+    }
+}
