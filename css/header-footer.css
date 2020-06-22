@@ -39,10 +39,10 @@
 }
 
 .book-appoint-top {
-    background-color: #5C4624;
+    background-color: #5C4624 !important;
     height: 50px;
     border-radius: 0px;
-    border: 0px solid #302f2f;
+    border: 0px solid #302f2f !important;
     font-weight: bold;
     text-transform: uppercase;
 }
@@ -61,7 +61,16 @@ a, a:hover, a:focus, a:active {
     color: #ffffff;
     text-decoration: none;
 }
+@media (min-width: 768px)
+.m-md-3 {
+    margin: 0rem!important;
+}
 
+.jumbotron {
+    background-color: white;
+    border-radius: 0px;
+    margin-bottom: 0rem;
+}
 
 footer {
     color: #fff;
