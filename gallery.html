@@ -24,70 +24,96 @@
     <link href="css/fontawesome-all.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link href="css/styles.css" rel="stylesheet">
+    <link  rel="stylesheet" href="css/header-footer.css">
     
     <!-- Favicon  -->
     <link rel="icon" href="images/logo-1.svg">
 </head>
 <body data-spy="scroll" data-target=".fixed-top">
     <!-- end of preloader -->
-    <nav class="navbar navbar-expand-lg na py-4 border-bottom border-gray bg-dark">
-        <div class="container d-flex align-items-center justify-content-beween">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="fas fa-align-left" style="color:white;"></i></button>
-          <ul class="list-inline mb-0 d-none d-lg-block">
-            <li class="list-inline-item mr-3">
-                    <a class="" href="#"><i class="fas fa-headphones-alt h4 text-muted"></i> (+234) 345-4569
-                    </a>
-                </li>
-                <li class="list-inline-item">
-                    <a class="" href="#">
-                        <i class="fas fa-headphones-alt h4 text-muted"></i>info@barbershop.com
-                    </a>
-                </li>
-                <li class="list-inline-item">
-                  <a class="social-link" href="#">
-                    <i class="fab fa-facebook-f"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a class="social-link" href="#">
-                    <i class="fab fa-twitter"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a class="social-link" href="#">
-                    <i class="fab fa-google-plus"></i>
-                  </a>
-                </li>
-                <li class="list-inline-item">
-                  <a class="social-link" href="#">
-                    <i class="fab fa-instagram"></i>
-                  </a>
-                </li>
-          </ul>
-        </div>
-      </nav>
-      <!-- Secondary Navbar                -->
-      <nav class="navbar navbar-expand-lg py-0 shadow-sm bg-dark">
-        <div class="container">
-          <div class="collapse navbar-collapse py-3 py-lg-0" id="navbarSupportedContent">
+   <div class="d-none d-md-block">
+        <nav class="navbar navbar-expand-md navbar-top">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link"style="text-decoration: none;" href="index.html">HOME <span class="sr-only">(current)</span></a>
+                <li class="nav-item">
+                    <a class="" href="#">
+                        <img class="phone img-fluid" src="assets/images/phone.png" alt=""> (+234) 345-4569
+                    </a>
                 </li>
-                <li class="nav-item"><a class="nav-link"style="text-decoration: none;" href="contact.html">CONTACT US</a></li>
-                <li class="nav-item"><a class="nav-link"style="text-decoration: none;" href="about-us.html">ABOUT US</a></li>
-                <li class="nav-item"><a class="nav-link"style=" text-decoration: none;" href="#">LOGO</a></li>
-                <li class="nav-item"><a class="nav-link" style="text-decoration: none;" href="services.html">OUR SERVICES</a></li>
-                <li class="nav-item"><a class="nav-link"style="text-decoration: none;" href="pricing.html">PRICING</a></li>
-                <li class="nav-item"><a class="nav-link" style="text-decoration: none;"href="gallery.html">GALLERY</a></li>
+                <li class="nav-item">
+                    <a class="" href="#">
+                        <img class="phone img-fluid" src="assets/images/mail.ico" alt=""> info@barbershop.com
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="" href="#">
+                        <img class="phone img-fluid" src="assets/images/facebook.png" alt="">
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="" href="#">
+                        <img class="phone img-fluid" src="assets/images/twitter.png" alt="">
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="" href="#">
+                        <img class="phone img-fluid" src="assets/images/instagram.png" alt="">
+                    </a>
+                </li>
             </ul>
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item"><a class="nav-link px-4 bg-primary text-white d-inline-block" href="contact.html">Book Appointment</a></li>
+
+            <div class="collapse navbar-collapse" id="navbarsExample04">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <!--                            <a class="nav-link" href="#">Link</a>-->
+                    </li>
+
+                </ul>
+                <button type="button" class="btn btn-primary book-appoint-top ">Book Appointment</button>
+            </div>
+        </nav>
+
+    </div>
+    <!-- MAIN NAV BAR -->
+    <nav class="navbar navbar-expand-lg navbar-main navbar-dark bg-dark">
+        <a class="navbar-brand h2" href="#">Fierce Cuts!</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample08" aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample08">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about-us.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Our services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Gallery</a>
+                </li>
+                <!--                    <li class="nav-item">-->
+                <!--                        <a class="nav-link" href="#">Make Appointment</a>-->
+                <!--                    </li>-->
+                <!--                    <li class="nav-item dropdown">-->
+                <!--                        <a class="nav-link dropdown-toggle" href="#" id="dropdown08" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>-->
+                <!--                        <div class="dropdown-menu" aria-labelledby="dropdown08">-->
+                <!--                            <a class="dropdown-item" href="#">Action</a>-->
+                <!--                            <a class="dropdown-item" href="#">Another action</a>-->
+                <!--                            <a class="dropdown-item" href="#">Something else here</a>-->
+                <!--                        </div>-->
+                <!--                    </li>-->
             </ul>
-          </div>
         </div>
-      </nav> 
+    </nav>
 
     <!-- Header -->
     <header id="header" class="header">
@@ -210,45 +236,73 @@
         </div> <!-- end of container -->
     </div>
     <!-- Footer -->
-    <footer class="footer" style="background-color: black">
-      <div class="container">
-        <div class="row">
-           <div class="col-md-3">
-                <h5>FIERCE CUTS</h5>
-                <ul class="list-unstyled text-small">
-                    <br>
-                    <li><h6>ADDRESS</h6></li>
-                    <li class="text-muted">13B Reid road, Lagos Cresent,<br> Lagos.</li>
-                    <br>
-                    <li><h6>HOURS:</h6></li>
-                    <li class="text-muted">MONDAY - FRIDAY: 9 AM - 5 PM</li>
-                    <li class="text-muted">SATURDAY & SATURDAY: 8 AM - 10 PM</li>
-                    <br>
-                </ul>
+   <footer class="">
+        <div class="container-fluid footer-main">
+            <div class="row justify-content-md-center">
+                <div class="col-md-3">
+                    <h5>FIERCE CUTS</h5>
+                    <ul class="list-unstyled text-small">
+                        <br>
+                        <li><h6>ADDRESS</h6></li>
+                        <li class="text-muted">13B Reid road, Lagos Cresent,<br> Lagos.</li>
+                        <br>
+                        <li><h6>HOURS:</h6></li>
+                        <li class="text-muted">MONDAY - FRIDAY: 9 AM - 5 PM</li>
+                        <li class="text-muted">SATURDAY & SATURDAY: 8 AM - 10 PM</li>
+                        <br>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <ul class="list-unstyled text-small quick-links">
+                        <li><a class="" href="#">ABOUT US</a></li>
+                        <li><a class="" href="#">CONTACT US</a></li>
+                        <li><a class="" href="#">PRICING</a></li>
+                        <li><a class="" href="#">GALLERY</a></li>
+                        <li><a class="" href="#">CAREERS</a></li>
+                        <br>
+                    </ul>
+                </div>
+                <div class="col-md-4 subscribe">
+                    <h6>SUBSCRIBE TO OUR NEWSLETTER</h6>
+                    <ul class="list-unstyled text-small">
+                        <li><a class="" href="#"></a></li>
+                        <li>
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control" placeholder="Enter Your Email Address" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                <div class="input-group-append">
+                                    <button class="btn btn-outline-secondary" type="button">SUBSCRIBE</button>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <div class="col-md-3">
-                <ul class="list-unstyled text-small quick-links">
-                     <li class="mb-2"><a class="footer-link" href="index.html">HOME</a></li>
-                    <li class="mb-2"><a class="footer-link" href="about-us.html">ABOUT US</a></li>
-                    <li class="mb-2"><a class="footer-link" href="contact.html">CONTACT US</a></li>
-                    <li class="mb-2"><a class="footer-link" href="pricing.html">PRICING</a></li>
-                    <li class="mb-2"><a class="footer-link" href="gallery.html">GALLERY</a></li>
-                    <li class="mb-2"><a class="footer-link" href="services.html">SERVICES</a></li>
-                    <br>
-                </ul>
-            </div>
-          <div class="col-lg-4">
-            <h2 class="h5 text-white lined mb-4">Newsletter</h2>
-            <p class="text-muted text-small">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.</p>
-            <div class="input-group mb-3">
-              <input class="form-control text-muted bg-none border-primary" type="text" placeholder="Email address" aria-label="Recipient's username" aria-describedby="button-addon2">
-              <div class="input-group-append">
-                <button class="btn btn-primary btn-sm" id="button-addon2" type="button"><i class="fas fa-paper-plane"></i></button>
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
+        <div class="container-fluid footer-copy">
+            <div class="row">
+                <div class="col-7 offset-2"><span class="text-muted">Copyright 2020- All Rights Reserved</span></div>
+                <div class="">
+                    <ul class="list-group list-group-horizontal">
+                        <li class="nav-item">
+                            <a class="" href="#">
+                                <img class="phone img-fluid" src="assets/images/facebook.png" alt="">
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="" href="#">
+                                <img class="phone img-fluid" src="assets/images/twitter.png" alt="">
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="" href="#">
+                                <img class="phone img-fluid" src="assets/images/instagram.png" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
     </footer>
         
     <!-- Scripts -->
