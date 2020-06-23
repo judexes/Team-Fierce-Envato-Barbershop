@@ -149,7 +149,7 @@ html{
 
 .price {
     background: #ffffff;
-    min-height: calc(100vh - 881.33px);/*height of section*/
+    min-height: calc(100vh - 900.33px);/*height of section*/
     margin-bottom: 5rem;
     padding-bottom: 1rem;
   }
@@ -174,7 +174,7 @@ html{
 
 
 .price .row .card{
-  height: 20rem;
+  height: 22rem;
   border: 16px double #FFFFFF!important;
   background: rgba(200, 189, 176, 0.28);
 }
@@ -199,7 +199,7 @@ html{
 
   /**_______Slider_______**/
   .slider{
-    max-height: auto;
+    max-height: 300px;
     margin-bottom: 7rem;
   
   }
@@ -240,7 +240,7 @@ html{
 
 
 
-  @media (max-width: 768px){
+  @media (max-width:823px){
     .price-banner .text-capitalize{
       text-transform: uppercase !important; 
       height: 80px;
