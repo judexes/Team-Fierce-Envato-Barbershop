@@ -48,7 +48,8 @@ html{
 
 .max-height {
   min-height: calc(100vh - 76px);
-  background: url("https://res.cloudinary.com/dk5u0xhcl/image/upload/v1592643512/edgar-chaparro-m8UvH75I2lI-unsplash_wmmwpl.jpg") center/cover fixed no-repeat;
+  background: url("https://res.cloudinary.com/dk5u0xhcl/image/upload/v1592643512/edgar-chaparro-m8UvH75I2lI-unsplash_wmmwpl.jpg");
+  background-size: cover;
   position: relative;
 }
 .banner {
