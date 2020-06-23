@@ -4,7 +4,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
@@ -16,7 +16,7 @@
 </head>
 
 <body>
-    <section>
+    <section id="appointment-page">
         <!--HIDE THIS NAV ON MOBILE NAV-->
         <div class="d-none d-md-block">
             <nav class="navbar navbar-expand-md navbar-top">
@@ -116,72 +116,71 @@
 
     <section id="appointment-section">
         <div class="container mt-10 p-4">
-            <div class="row mt-5">
+            <div class="row">
                 <div class="col-12 col-md-12">
-                    <div class="row flex-md-row mb-5 ">
-                        <div class="col-12 d-flex flex-column p-3 align-items-center">
-                            <h3 id="appointment-form-header" class="mb-4">BOOK ONLINE</h3>
-                            <form id="appointment-form" class="col-12 d-flex flex-column justify-content-center align-items-center">
-                                <div class="col-12 d-flex flex-column flex-md-row justify-content-center align-items-center">
-                                    <!-- form part A -->
-                                    <div class="col-12 col-md-6">
-                                    
-                                        <div class="form-group">
-                                            <label for="services" class="m-0 ml-4">Select Services</label>
-                                            <select name="services" id="services" class="form-control form-control-lg">
-                                                <option value="1">Normal Shave</option>
-                                                <option value="2">Option 2</option>
-                                                <option value="3">Option </option>
-                                            </select>
-                                        </div>
-                                    
-                                        <div class="form-group">
-                                            <label for="number-guest" class="m-0 ml-4">How many guest</label>
-                                            <select name="number-guest" id="number-guest" class="form-control form-control-lg">
-                                                <option value="1">Just Me</option>
-                                                <option value="2">Option 2</option>
-                                                <option value="3">Option </option>
-                                            </select>
-                                        </div>
-                                    
-                                        <div class="form-group">
-                                            <label for="date" class="m-0 ml-4">Date</label>
-                                            <input type="date" value="2020-05-12" id="date" class="form-control form-control-lg">
-                                        </div>
+                    <div class="col-12">
+                        <h3 id="appointment-form-header" class="text-center">BOOK ONLINE</h3>
+                        <form id="appointment-form">
+                            <div class="row p-3 justify-content-center">
+                                <!-- form part A -->
+                                <div class="col-12 col-md-6">
+                    
+                                    <div class="form-group">
+                                        <label for="services" class="m-0 ml-4">Select Services</label>
+                                        <select name="services" id="services" class="form-control form-control-lg">
+                                            <option value="1">Normal Shave</option>
+                                            <option value="2">Option 2</option>
+                                            <option value="3">Option </option>
+                                        </select>
                                     </div>
-                                    
-                                    <!-- form part b -->
-                                    <div class="col-12 col-md-6">
-                                    
-                                        <div class="form-group">
-                                            <label for="available-staff" class="m-0 ml-4">Choose available staff</label>
-                                            <select name="available-staff" id="available-staff" class="form-control form-control-lg">
-                                                <option value="1">Any staff available</option>
-                                                <option value="2">Option 2</option>
-                                                <option value="3">Option </option>
-                                            </select>
-                                        </div>
-                                    
-                                        <div class="form-group">
-                                            <label for="available-staff" class="m-0 ml-4">Email</label>
-                                            <input type="email" id="email" class="form-control form-control-lg" placeholder="Anifowsekb@gmail.com">
-                                        </div>
-                                    
-                                        <div class="form-group">
-                                            <label for="time" class="m-0 ml-4">Time</label>
-                                            <input type="time" value="00:00" id="date" class="form-control form-control-lg">
-                                        </div>
+                    
+                                    <div class="form-group">
+                                        <label for="number-guest" class="m-0 ml-4">How many guest</label>
+                                        <select name="number-guest" id="number-guest" class="form-control form-control-lg">
+                                            <option value="1">Just Me</option>
+                                            <option value="2">Option 2</option>
+                                            <option value="3">Option </option>
+                                        </select>
+                                    </div>
+                    
+                                    <div class="form-group">
+                                        <label for="date" class="m-0 ml-4">Date</label>
+                                        <input type="date" value="2020-05-12" id="date" class="form-control form-control-lg">
                                     </div>
                                 </div>
-                                <!-- form submit button -->
-                               
-                                <div class="col-12 col-md-6 mt-md-3 mb-md-3">
-                                    <div class="form-group col-12">
-                                        <button id="appointment-submit-btn" type="submit" class="btn btn-primary btn-lg btn-block">SEND MESSAGE</button>
+
+                                <!-- form part b -->
+                                <div class="col-12 col-md-6">
+                                
+                                    <div class="form-group">
+                                        <label for="available-staff" class="m-0 ml-4">Choose available staff</label>
+                                        <select name="available-staff" id="available-staff" class="form-control form-control-lg">
+                                            <option value="1">Any staff available</option>
+                                            <option value="2">Option 2</option>
+                                            <option value="3">Option </option>
+                                        </select>
+                                    </div>
+                                
+                                    <div class="form-group">
+                                        <label for="available-staff" class="m-0 ml-4">Email</label>
+                                        <input type="email" id="email" class="form-control form-control-lg" placeholder="Anifowsekb@gmail.com">
+                                    </div>
+                                
+                                    <div class="form-group">
+                                        <label for="time" class="m-0 ml-4">Time</label>
+                                        <input type="time" value="00:00" id="date" class="form-control form-control-lg">
                                     </div>
                                 </div>
-                            </form>
-                        </div>
+                            </div>
+                            <!-- form submit button -->
+                    
+                            <div class="col-12 mt-md-3 mb-md-3 d-md-flex flex-md-column align-items-md-center justify-content-md-center">
+                                <div class="form-group col-12 col-md-6">
+                                    <button id="appointment-submit-btn" type="submit" class="btn btn-primary btn-lg btn-block">SEND
+                                        MESSAGE</button>
+                                </div>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
