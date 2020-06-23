@@ -12,18 +12,13 @@
         margin-right: 0px !important ;
     }
 	
-	.m-5{
 
 
-
-margin-left: 0px !important;
-        margin-right: 0px !important ;
-    }
 	
 
     /* Styles */
-    }
-
+    
+}
     /* iPads (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
     /* Styles */
@@ -55,7 +50,7 @@ margin-left: 0px !important;
 
 .sub_header{
     padding-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 }
 .sub_header h3{
     font-size:35px;
@@ -96,7 +91,7 @@ img{
 
 .sub_services{
     text-align: center;
-    padding-top: 50px;
+    padding-top: 30px;
     padding-bottom: 50px;
 }
 .sub_services_column{
@@ -107,12 +102,10 @@ img{
     outline: 3px solid white !important;
     outline-offset: -10px;
     margin-top: 20px;
-   
-   
     max-width: 100%;
-	
-	
 }
+	
+	
 .sub_div{
     background-color: #D8DEE4;
     width: 100px;
