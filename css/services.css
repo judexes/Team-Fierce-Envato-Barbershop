@@ -100,6 +100,8 @@ img{
     margin-left: 30px;
     margin-right: 30px;
     max-width: 100%;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 .sub_div{
     background-color: #D8DEE4;
