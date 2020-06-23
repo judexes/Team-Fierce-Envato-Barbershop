@@ -1,4 +1,4 @@
-@media only screen and (min-device-width : 320px) and (max-device-width : 680px) {
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     .header{
         height:300px;
         background-color: red;
@@ -21,7 +21,13 @@
         height:300px;
         background-color: red;
     }
-
+	.services_column{
+        height: auto;
+        max-width: 100%;
+        margin-top: 30px !important;
+        margin-left: 0px;
+        margin-right: 0px ;
+    }
     
     }
 
