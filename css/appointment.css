@@ -1,5 +1,8 @@
 @import 'font.css'; 
-
+#appointment-page {
+    width: 100%;
+    overflow: hidden;
+ }
 .jumbotron {
     background: url("../assets/images/appointment-A.png") no-repeat top center;
     background-size: cover;
@@ -14,10 +17,7 @@
 }
 #appointment-section {
     width: 100%;
-    background-image: url("../assets/images/appointment-B.png");
-    background-repeat: repeat-y;
-    background-position: center;
-    background-repeat: no-repeat;
+    background: url("../assets/images/appointment-B.png") no-repeat center center;
     background-size: cover;
 }
 #appointment-form-header {
