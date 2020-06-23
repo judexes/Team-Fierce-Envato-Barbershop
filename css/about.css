@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
 /* Header and Footer CSS */
 
 .navbar .nav-item {
@@ -175,9 +181,7 @@ section.about-us{
     filter: grayscale(100%);
 }
 
-.container{
-    max-width: 1300px;
-}
+
 
 
 /* Media Queries for the about us page */
